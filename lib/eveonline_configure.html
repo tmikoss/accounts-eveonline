@@ -1,0 +1,16 @@
+<template name="configureLoginServiceDialogForEveonline">
+  <p>
+    Configure your EvE Online login:
+  </p>
+  <ol>
+    <li>
+      Visit <a href="https://developers.eveonline.com/" target="_blank">EvE developers page</a>
+    </li>
+    <li>
+      Navigate to applications section and create a new application
+    </li>
+    <li>
+      Set the Callback URL in application settings to "{{base_url}}_oauth/eveonline?close"
+    </li>
+  </ol>
+</template>
