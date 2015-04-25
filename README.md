@@ -16,7 +16,7 @@ By default, `accounts-eveonline` requests the `publicData` scope. Will become co
 The following information will be added to `Meteor.users` records:
 
 ```
-{ 
+{
   services: {
     eveonline: {
       id: '...', // EvE Online account ID
@@ -27,7 +27,7 @@ The following information will be added to `Meteor.users` records:
   }  
   profile: {
     eveOnlineCharacterId: ..., // ID of the character that was selected in login process
-    eveOnlineCahracterName: '...' // Name of the character that was selected in login process
+    eveOnlineCharacterName: '...' // Name of the character that was selected in login process
   }
 }
 ```
@@ -38,6 +38,6 @@ The following information will be added to `Meteor.users` records:
 
 ### refreshAuthToken(user)
 
-Calling `EveonlineHelpers.refreshAuthToken(meteorUserRecord)` will attempt to obtain new auth token from SSO server by using the refresh token. 
+Calling `EveonlineHelpers.refreshAuthToken(meteorUserRecord)` will attempt to obtain new auth token from SSO server by using the refresh token.
 
 Available only server-side. If successful, data gets updated in `Meteor.users` collection.
