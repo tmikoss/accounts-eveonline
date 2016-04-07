@@ -1,6 +1,6 @@
 Package.describe({
   name: 'tmikoss:accounts-eveonline',
-  version: '0.1.0',
+  version: '0.1.1',
   summary: 'Authentication with EvE Online SSO',
   git: 'https://github.com/tmikoss/accounts-eveonline.git',
   documentation: 'README.md'

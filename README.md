@@ -6,10 +6,9 @@ Meteor.js authentication with EvE Online SSO
 
 Add to application and follow the graphical configuration guidelines - same as `accounts-twitter` or `accounts-facebook`.
 
-
 ## Access scopes
 
-By default, `accounts-eveonline` requests the `publicData` scope. Will become configurable when meaningful choices get added to SSO scopes.
+By default, `accounts-eveonline` requests the `publicData` scope. Can be configured via method options: `Meteor.loginWithEveonline({ scope: 'publicData' })`.
 
 ## User data
 
